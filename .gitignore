@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+venv_morgana/
+ENV/
+env/
+*.pth              # trained model weights (too large for git)
+*.pt
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# Data files
+*.tif
+*.tiff
+*.png
+*.jpg
+*.jpeg
+*.nd2
+*.czi
+*.ome.tif
+*.ome.tiff
+*.zip
+
+# but keep the curated example images used in the README
+!docs/images/
+!docs/images/*.png
+
+# Jupyter
+.ipynb_checkpoints
+
+# VSCode / JetBrains
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and reports
+*.log
+pipeline_250212_log.txt
+
+# Tests
+.pytest_cache/
+
+# Misc
+tmp/
+output/
+
+# Local scratch and moved-aside files (not for the public repo)
+junk/
+analysis_output_v4/
+quick_test_output/
+annotation_workspace/
+venv_morgana/
+*.pptx
+
+# Local tooling / agent state
+.claude/
+memory/

@@ -1,0 +1,30 @@
+# Core scientific stack
+numpy
+scipy
+scikit-image
+pandas
+tifffile
+matplotlib
+pillow
+imageio
+
+# Tissue flow (Phase 5b-1): particle image velocimetry on nuclear images
+openpiv
+
+# Nuclear tracking (Phase 5b-2): Bayesian multi-object tracking
+btrack
+cvxopt            # ILP solver backend (GLPK) used by btrack
+
+# Nuclear segmentation (Phase 5a)
+stardist          # star-convex nuclei model used for the final nuclei analysis
+csbdeep           # stardist dependency
+cellpose          # first attempt + benchmarking only (missed faint H2A; not used for final)
+
+# Deep-learning segmentation backend (optional: U-Net fine-tuning)
+torch
+
+# Reporting / figure assembly
+python-pptx
+
+# Tests
+pytest
